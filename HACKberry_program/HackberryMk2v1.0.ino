@@ -271,6 +271,7 @@ void calibration() {
     return;
 }
 
+//Print values to monitor
 void serialMonitor(){
     Serial.print("Min="); Serial.print(sensorMin);
     Serial.print(",Max="); Serial.print(sensorMax);
